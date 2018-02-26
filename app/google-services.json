@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "793503953624",
+    "firebase_url": "https://tesis-2331c.firebaseio.com",
+    "project_id": "tesis-2331c",
+    "storage_bucket": "tesis-2331c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793503953624:android:b6b6ecd026bdc3e9",
+        "android_client_info": {
+          "package_name": "com.example.software.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793503953624-mfukrvhuq48pkvnpqs4i0mc8com6m8h0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBudGvg-Houpg2Bzz8HuJ5NCiwGM9aeU10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

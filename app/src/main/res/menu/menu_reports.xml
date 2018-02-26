@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_piechart"
+        android:orderInCategory="100"
+        android:title="@string/action_piechart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_steppedareachart"
+        android:orderInCategory="100"
+        android:title="@string/action_steppedareachart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gauge"
+        android:orderInCategory="100"
+        android:title="@string/action_gauge"
+        app:showAsAction="never" />
+</menu>

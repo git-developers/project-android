@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_icon"
+        android:layout_width="64dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_grades"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_gradeMonthly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_item"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/ll_icon"
+        android:text="grade monthly"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView_gradeBiMonthly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_item"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/ll_icon"
+        android:text="grade bi monthly"
+        android:layout_below="@id/textView_gradeMonthly"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView_gradeTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_item"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/ll_icon"
+        android:text="grade teacher"
+        android:layout_below="@id/textView_gradeBiMonthly"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView_bimester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_item"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/ll_icon"
+        android:text="bimester"
+        android:layout_below="@id/textView_gradeTeacher"
+        android:textSize="14sp" />
+
+    <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+
+</RelativeLayout>
